@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF94CD229D08176002E0659 /* HeartButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94CD129D08176002E0659 /* HeartButtonApp.swift */; };
+		ACF94CD429D08176002E0659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94CD329D08176002E0659 /* ContentView.swift */; };
+		ACF94CD629D08177002E0659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF94CD529D08177002E0659 /* Assets.xcassets */; };
+		ACF94CD929D08177002E0659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF94CD829D08177002E0659 /* Preview Assets.xcassets */; };
+		ACF94CE329D08177002E0659 /* HeartButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94CE229D08177002E0659 /* HeartButtonTests.swift */; };
+		ACF94CED29D08177002E0659 /* HeartButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94CEC29D08177002E0659 /* HeartButtonUITests.swift */; };
+		ACF94CEF29D08177002E0659 /* HeartButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF94CEE29D08177002E0659 /* HeartButtonUITestsLaunchTests.swift */; };
+		ACF94CFC29D08376002E0659 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ACF94CFB29D08376002E0659 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF94CDF29D08177002E0659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF94CC629D08176002E0659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF94CCD29D08176002E0659;
+			remoteInfo = HeartButton;
+		};
+		ACF94CE929D08177002E0659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF94CC629D08176002E0659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF94CCD29D08176002E0659;
+			remoteInfo = HeartButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF94CCE29D08176002E0659 /* HeartButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF94CD129D08176002E0659 /* HeartButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonApp.swift; sourceTree = "<group>"; };
+		ACF94CD329D08176002E0659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACF94CD529D08177002E0659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF94CD829D08177002E0659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACF94CDE29D08177002E0659 /* HeartButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF94CE229D08177002E0659 /* HeartButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonTests.swift; sourceTree = "<group>"; };
+		ACF94CE829D08177002E0659 /* HeartButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF94CEC29D08177002E0659 /* HeartButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonUITests.swift; sourceTree = "<group>"; };
+		ACF94CEE29D08177002E0659 /* HeartButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACF94CFB29D08376002E0659 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF94CCB29D08176002E0659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CDB29D08177002E0659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CE529D08177002E0659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF94CC529D08176002E0659 = {
+			isa = PBXGroup;
+			children = (
+				ACF94CFB29D08376002E0659 /* .gitignore */,
+				ACF94CD029D08176002E0659 /* HeartButton */,
+				ACF94CE129D08177002E0659 /* HeartButtonTests */,
+				ACF94CEB29D08177002E0659 /* HeartButtonUITests */,
+				ACF94CCF29D08176002E0659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF94CCF29D08176002E0659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94CCE29D08176002E0659 /* HeartButton.app */,
+				ACF94CDE29D08177002E0659 /* HeartButtonTests.xctest */,
+				ACF94CE829D08177002E0659 /* HeartButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF94CD029D08176002E0659 /* HeartButton */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94CD129D08176002E0659 /* HeartButtonApp.swift */,
+				ACF94CD329D08176002E0659 /* ContentView.swift */,
+				ACF94CD529D08177002E0659 /* Assets.xcassets */,
+				ACF94CD729D08177002E0659 /* Preview Content */,
+			);
+			path = HeartButton;
+			sourceTree = "<group>";
+		};
+		ACF94CD729D08177002E0659 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94CD829D08177002E0659 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACF94CE129D08177002E0659 /* HeartButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94CE229D08177002E0659 /* HeartButtonTests.swift */,
+			);
+			path = HeartButtonTests;
+			sourceTree = "<group>";
+		};
+		ACF94CEB29D08177002E0659 /* HeartButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF94CEC29D08177002E0659 /* HeartButtonUITests.swift */,
+				ACF94CEE29D08177002E0659 /* HeartButtonUITestsLaunchTests.swift */,
+			);
+			path = HeartButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF94CCD29D08176002E0659 /* HeartButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF94CF229D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButton" */;
+			buildPhases = (
+				ACF94CCA29D08176002E0659 /* Sources */,
+				ACF94CCB29D08176002E0659 /* Frameworks */,
+				ACF94CCC29D08176002E0659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartButton;
+			productName = HeartButton;
+			productReference = ACF94CCE29D08176002E0659 /* HeartButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF94CDD29D08177002E0659 /* HeartButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF94CF529D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButtonTests" */;
+			buildPhases = (
+				ACF94CDA29D08177002E0659 /* Sources */,
+				ACF94CDB29D08177002E0659 /* Frameworks */,
+				ACF94CDC29D08177002E0659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF94CE029D08177002E0659 /* PBXTargetDependency */,
+			);
+			name = HeartButtonTests;
+			productName = HeartButtonTests;
+			productReference = ACF94CDE29D08177002E0659 /* HeartButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF94CE729D08177002E0659 /* HeartButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF94CF829D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButtonUITests" */;
+			buildPhases = (
+				ACF94CE429D08177002E0659 /* Sources */,
+				ACF94CE529D08177002E0659 /* Frameworks */,
+				ACF94CE629D08177002E0659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF94CEA29D08177002E0659 /* PBXTargetDependency */,
+			);
+			name = HeartButtonUITests;
+			productName = HeartButtonUITests;
+			productReference = ACF94CE829D08177002E0659 /* HeartButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF94CC629D08176002E0659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ACF94CCD29D08176002E0659 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ACF94CDD29D08177002E0659 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACF94CCD29D08176002E0659;
+					};
+					ACF94CE729D08177002E0659 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACF94CCD29D08176002E0659;
+					};
+				};
+			};
+			buildConfigurationList = ACF94CC929D08176002E0659 /* Build configuration list for PBXProject "HeartButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF94CC529D08176002E0659;
+			productRefGroup = ACF94CCF29D08176002E0659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF94CCD29D08176002E0659 /* HeartButton */,
+				ACF94CDD29D08177002E0659 /* HeartButtonTests */,
+				ACF94CE729D08177002E0659 /* HeartButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF94CCC29D08176002E0659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF94CD929D08177002E0659 /* Preview Assets.xcassets in Resources */,
+				ACF94CFC29D08376002E0659 /* .gitignore in Resources */,
+				ACF94CD629D08177002E0659 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CDC29D08177002E0659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CE629D08177002E0659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF94CCA29D08176002E0659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF94CD429D08176002E0659 /* ContentView.swift in Sources */,
+				ACF94CD229D08176002E0659 /* HeartButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CDA29D08177002E0659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF94CE329D08177002E0659 /* HeartButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF94CE429D08177002E0659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF94CED29D08177002E0659 /* HeartButtonUITests.swift in Sources */,
+				ACF94CEF29D08177002E0659 /* HeartButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF94CE029D08177002E0659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF94CCD29D08176002E0659 /* HeartButton */;
+			targetProxy = ACF94CDF29D08177002E0659 /* PBXContainerItemProxy */;
+		};
+		ACF94CEA29D08177002E0659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF94CCD29D08176002E0659 /* HeartButton */;
+			targetProxy = ACF94CE929D08177002E0659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACF94CF029D08177002E0659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF94CF129D08177002E0659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF94CF329D08177002E0659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartButton/Preview Content\"";
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF94CF429D08177002E0659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeartButton/Preview Content\"";
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACF94CF629D08177002E0659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartButton";
+			};
+			name = Debug;
+		};
+		ACF94CF729D08177002E0659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartButton";
+			};
+			name = Release;
+		};
+		ACF94CF929D08177002E0659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartButton;
+			};
+			name = Debug;
+		};
+		ACF94CFA29D08177002E0659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.HeartButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF94CC929D08176002E0659 /* Build configuration list for PBXProject "HeartButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF94CF029D08177002E0659 /* Debug */,
+				ACF94CF129D08177002E0659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF94CF229D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF94CF329D08177002E0659 /* Debug */,
+				ACF94CF429D08177002E0659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF94CF529D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF94CF629D08177002E0659 /* Debug */,
+				ACF94CF729D08177002E0659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF94CF829D08177002E0659 /* Build configuration list for PBXNativeTarget "HeartButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF94CF929D08177002E0659 /* Debug */,
+				ACF94CFA29D08177002E0659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF94CC629D08176002E0659 /* Project object */;
+}
